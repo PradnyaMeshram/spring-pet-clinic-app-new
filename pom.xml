@@ -27,7 +27,7 @@
                     <groupId>org.springframework.boot</groupId>
                     <artifactId>spring-boot-maven-plugin</artifactId>
                 </plugin>
-                <plugin>
+               <plugin>
                     <groupId>org.apache.maven.plugins</groupId>
                     <artifactId>maven-release-plugin</artifactId>
                     <configuration>
@@ -42,7 +42,9 @@
                 </plugin>
         </plugins>
     </build>
+<!--
 <scm>
     <developerConnection>scm:git:https://github.com/PradnyaMeshram/spring-pet-clinic-app-new.git</developerConnection>
   </scm>
+-->
 </project>
